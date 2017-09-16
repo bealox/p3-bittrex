@@ -1,6 +1,8 @@
 pi-bittrex  
 ==============
 
+[![Build Status](https://travis-ci.org/bealox/p3-bittrex.svg?branch=master)](https://travis-ci.org/bealox/p3-bittrex)
+
 Python 3 API Wrapper for Bittrex.  I am **NOT** associated with Bittrex, please use at your own risk.
 
 Tips are appreciated:
