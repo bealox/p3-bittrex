@@ -6,7 +6,7 @@
 import unittest
 import json
 import os
-from bittrex.bittrex import Bittrex
+from .p3_bittrex import Bittrex
 
 
 def test_basic_response(unit_test, result, method_name):
