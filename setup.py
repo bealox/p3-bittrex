@@ -1,12 +1,10 @@
-
 from setuptools import setup
-
 
 setup(
     name="p3_bittrex",
-    packages=['p3_bittrex'],
+    packages=['bittrex'],
     modules=['bittrex'],
-    version="0.1.2",
+    version="0.1.4",
     description="Bittrex API pacakge",
     author="Andy Hsieh",
     author_email="andy.hsieh@hotmail.com",

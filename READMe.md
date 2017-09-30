@@ -27,7 +27,7 @@ Set your secret to BITTREX_SECRET env variables.
 
 Eaxmple:
 ```python
-from .p3_bittrex import Bittrex
+from bittrex import Bittrex
 my_bittrex = Bittrex()
 my_bittrex.get_markets()
 {'success': True, 'message': '', 'result': [{'MarketCurrency': 'LTC', ...
@@ -39,7 +39,7 @@ Specify your client and key in the initialisation
 
 Example:
 ```python
-from .p3_bittrex import Bittrex
+from bittrex import Bittrex
 my_bittrex = Bittrex(key='your_key', secret='youesecret')
 my_bittrex.get_markets()
 {'success': True, 'message': '', 'result': [{'MarketCurrency': 'LTC', ...
